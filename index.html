@@ -26,10 +26,10 @@
         <div id="collapsingNavbar" class="collapse navbar-toggleable-custom" role="tabpanel" aria-labelledby="collapsingNavbar">
           <ul class="nav navbar-nav pull-xs-right">
             <li class="nav-item nav-item-toggable">
-              <a class="nav-link" href="./index-carousel.html">About</a>
+              <a class="nav-link smoothScroll" href="#about">About</a>
             </li>
             <li class="nav-item nav-item-toggable">
-              <a class="nav-link" href="ui-elements.html">Buy</a>
+              <a class="nav-link smoothScroll" href="#buy">Buy</a>
             </li>
           </ul>
         </div>
@@ -106,14 +106,14 @@
       <div class="container">
         <img src="img/logo.png" alt="Tyke Box" id="logo">
         <h2 class="m-b-3">The Box That Can Keep Up With Your Child</h2>
-        <a class="btn btn-secondary-outline m-b-1" href="" role="button">Buy Now</a>
+        <a class="btn btn-secondary-outline m-b-1 smoothScroll" href="#buy" role="button">Buy Now</a>
       </div>
     </header>
 
     <!-- Intro
     ================================================== -->
 
-    <section class="section-intro bg-faded text-xs-center">
+    <section class="section-intro bg-faded text-xs-center" id="about">
       <div class="container">
         <h3 class="wp wp-1" id="top">Our Box to Your House</h3>
         <p class="lead wp wp-2" id="bot">Our box contains a new item every month and receive challenges to help keep you and your child motivated and active!</p>
@@ -167,7 +167,7 @@
     <!-- Pricing
     ================================================== -->
 
-    <section class="section-pricing bg-faded text-xs-center">
+    <section class="section-pricing bg-faded text-xs-center" id="buy">
       <div class="container">
         <h3>Buy Tyke Box</h3>
         <div class="row p-y-3">
@@ -270,7 +270,7 @@
 
     <section class="section-signup bg-faded">
       <div class="container">
-        <h3 class="text-xs-center m-b-3">Sign up to receive free updates as soon as they hit!</h3>
+        <h3 class="text-xs-center m-b-3">Sign up for our newsletter to receive updates on our product!</h3>
         <form>
           <div class="row">
             <div class="col-md-6 col-xl-3"></div>
@@ -282,7 +282,7 @@
             </div>
             <div class="col-md-6 col-xl-3">
               <div class="form-group">
-                <button type="submit" class="btn btn-primary btn-block" id="bigbutton">Sign up for free!</button>
+                <button type="submit" class="btn btn-primary btn-block" id="bigbutton">Sign Up</button>
               </div>
             </div>
             <div class="col-md-6 col-xl-3"></div>
@@ -313,6 +313,7 @@
     </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="js/smoothscroll.js"></script>
     <script src="js/landio.min.js"></script>
   </body>
 </html>
